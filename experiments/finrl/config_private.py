@@ -1,4 +1,0 @@
-from __future__ import annotations
-
-ALPACA_API_KEY = "PK6OLMQA3TSKGUT30NG7"
-ALPACA_API_SECRET = "Jb2dE9ir20DlosSvfkP9YI8Tywtec9KJPP446cy6"
