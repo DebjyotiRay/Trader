@@ -1,0 +1,11 @@
+yfinance
+pandas
+numpy
+matplotlib
+stockstats
+gym
+stable-baselines
+tensorflow
+pyfolio
+wrds
+swig

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="4e837447-86d4-4d47-a29e-28a6b14a1493" name="Changes" comment="" />
+=======
+    <list default="true" id="4e837447-86d4-4d47-a29e-28a6b14a1493" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TradingGym-master/TradingGym-master/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TradingGym-master/TradingGym-master/.idea/TradingGym-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TradingGym-master/TradingGym-master/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TradingGym-master/TradingGym-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TradingGym-master/TradingGym-master/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TradingGym-master/TradingGym-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TRADING BOT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TRADING BOT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+>>>>>>> 9d11a58765df9917a6aa053add8bfeb3be6bef8b
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+<<<<<<< HEAD
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+>>>>>>> 9d11a58765df9917a6aa053add8bfeb3be6bef8b
+  <component name="ProjectId" id="2T0b1Fmnraq6YY8EAVwXsgwUYNd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+<<<<<<< HEAD
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/subra/YOLO"
+  }
+}]]></component>
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/subra/YOLO&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\subra\PROJECTS\TRADING BOT" />
+    </key>
+  </component>
+>>>>>>> 9d11a58765df9917a6aa053add8bfeb3be6bef8b
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e837447-86d4-4d47-a29e-28a6b14a1493" name="Changes" comment="" />
+      <created>1690182730049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690182730049</updated>
+    </task>
+    <servers />
+  </component>
+<<<<<<< HEAD
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+>>>>>>> 9d11a58765df9917a6aa053add8bfeb3be6bef8b
+</project>
