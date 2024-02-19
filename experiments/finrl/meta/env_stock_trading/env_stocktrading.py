@@ -10,9 +10,9 @@ import pandas as pd
 from gymnasium import spaces
 from gymnasium.utils import seeding
 from stable_baselines3.common.vec_env import DummyVecEnv
-
+# symbol='AAPL'
 matplotlib.use("Agg")
-symbol='AAPL'
+
 # from stable_baselines3.common.logger import Logger, KVWriter, CSVOutputFormat
 APCA_API_BASE_URL = 'https://paper-api.alpaca.markets'
 APCA_API_KEY_ID = 'PK6OLMQA3TSKGUT30NG7'
@@ -20,7 +20,8 @@ APCA_API_SECRET_KEY = 'Jb2dE9ir20DlosSvfkP9YI8Tywtec9KJPP446cy6'
 import alpaca_trade_api as tradeapi
 # Set up Alpaca API
 api = tradeapi.REST(APCA_API_KEY_ID, APCA_API_SECRET_KEY, base_url=APCA_API_BASE_URL, api_version='v2')
-
+# from finrl.config_tickers import DOW_30_TICKER
+DOW_30_TICKER=['AXP','AAPL', 'AMGN','MSFT', 'JPM']
 class StockTradingEnv(gym.Env):
     """A stock trading environment for OpenAI gym"""
 
@@ -108,7 +109,7 @@ class StockTradingEnv(gym.Env):
         def _do_sell_normal():
             if (
                 self.state[index + 2 * self.stock_dim + 1] != True
-            ):  # check if the stock is able to sell, for simlicity we just add it in techical index
+            ):  # check if the stock is able to sell, for simplicity we just add it in technical index
                 # if self.state[index + 1] > 0: # if we use price<0 to denote a stock is unable to trade in that day, the total asset calculation may be wrong for the price is unreasonable
                 # Sell only if the price is > 0 (no missing data in this particular date)
                 # perform sell action based on the sign of the action
@@ -136,7 +137,7 @@ class StockTradingEnv(gym.Env):
                     sell_num_shares = 0
             else:
                 sell_num_shares = 0
-            print("Itne shares bech raha hun:   ", sell_num_shares)
+
             return sell_num_shares
 
         # perform sell action based on the sign of the action
@@ -170,19 +171,22 @@ class StockTradingEnv(gym.Env):
                 sell_num_shares = _do_sell_normal()
         else:
             sell_num_shares = _do_sell_normal()
-        print("Itne shares bech raha hun:   ", sell_num_shares)
+        symbol = DOW_30_TICKER[index]
+        # print(f"Selling {sell_num_shares} shares of {symbol}")
+        if sell_num_shares>0:
+            print(f"Selling {sell_num_shares} shares of {symbol}")
 
-        print(f"Selling {sell_num_shares} shares of {symbol}")
-        # api.submit_order(
-        #     symbol=symbol,
-        #     qty=sell_num_shares,
-        #     side='sell',
-        #     type='market',
-        #     time_in_force='gtc',
-        # )
+            # api.submit_order(
+            # symbol=symbol,
+            # qty=sell_num_shares,
+            # side='sell',
+            # type='market',
+            # time_in_force='gtc',
+            # )
         return sell_num_shares
 
     def _buy_stock(self, index, action):
+        # print("INDEX HAI YE  ", index," aur ye action ",action)
         def _do_buy():
             if (
                 self.state[index + 2 * self.stock_dim + 1] != True
@@ -193,7 +197,7 @@ class StockTradingEnv(gym.Env):
                     self.state[index + 1] * (1 + self.buy_cost_pct[index])
                 )  # when buying stocks, we should consider the cost of trading when calculating available_amount, or we may be have cash<0
                 # print('available_amount:{}'.format(available_amount))
-                print(type(self.state)," aur ye wala hoga type of self.buy_cost_pct ", type(self.buy_cost_pct))
+
                 # update balance
                 buy_num_shares = min(available_amount, action)
                 buy_amount = (
@@ -211,16 +215,7 @@ class StockTradingEnv(gym.Env):
                 self.trades += 1
             else:
                 buy_num_shares = 0
-            print("Itne shares khareed raha hun:   ", buy_num_shares)
-            qty_to_buy = buy_num_shares
-            print(f"Buying {qty_to_buy} shares of {symbol}")
-            # api.submit_order(
-            #     symbol=symbol,
-            #     qty=qty_to_buy,
-            #     side='buy',
-            #     type='market',
-            #     time_in_force='gtc',
-            # )
+
             return buy_num_shares
 
         # perform buy action based on the sign of the action
@@ -232,7 +227,17 @@ class StockTradingEnv(gym.Env):
             else:
                 buy_num_shares = 0
                 pass
-        print("Itne shares khareed raha hun:   ", buy_num_shares)
+        qty_to_buy=buy_num_shares
+        symbol=DOW_30_TICKER[index]
+        if qty_to_buy>0:
+            print(f"Buying {qty_to_buy} shares of {symbol}")
+            # api.submit_order(
+            # symbol=symbol,
+            # qty=qty_to_buy,
+            # side='buy',
+            # type='market',
+            # time_in_force='gtc',
+            # )
         return buy_num_shares
 
     def _make_plot(self):
@@ -334,22 +339,27 @@ class StockTradingEnv(gym.Env):
                 np.array(self.state[1 : (self.stock_dim + 1)])
                 * np.array(self.state[(self.stock_dim + 1) : (self.stock_dim * 2 + 1)])
             )
-            print("begin_total_asset:{}".format(begin_total_asset))
+            # print("begin_total_asset:{}".format(begin_total_asset))
 
             argsort_actions = np.argsort(actions)
             sell_index = argsort_actions[: np.where(actions < 0)[0].shape[0]]
             buy_index = argsort_actions[::-1][: np.where(actions > 0)[0].shape[0]]
 
             for index in sell_index:
-                print(f"Num shares before: {self.state[index+self.stock_dim+1]}")
-                print(f'take sell action before : {actions[index]}')
+                # print(f"Num shares before: {self.state[index+self.stock_dim+1]}")
+                # print(f'take sell action before : {actions[index]}')
                 actions[index] = self._sell_stock(index, actions[index]) * (-1)
-                print(f'take sell action after : {actions[index]}')
-                print(f"Num shares after: {self.state[index+self.stock_dim+1]}")
+                if actions[index]<0:
+                    print('itne stocks BECH raha hun: ', actions[index], 'of ', DOW_30_TICKER[index])
+                # print(f'take sell action after : {actions[index]}')
+                    print(f"Num shares after: {self.state[index+self.stock_dim+1]}")
 
             for index in buy_index:
-                print('take buy action: {}'.format(actions[index]))
                 actions[index] = self._buy_stock(index, actions[index])
+                if actions[index] > 0:
+                    print('take buy action: ',actions[index], 'of ', DOW_30_TICKER[index], ' wala stock ')
+                    print(f"Num shares after: {self.state[index + self.stock_dim + 1]}")
+
 
             self.actions_memory.append(actions)
 

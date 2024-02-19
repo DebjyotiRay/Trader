@@ -291,8 +291,9 @@ class AgentPPO(AgentBase):
             action, logprob = (t.squeeze(0) for t in get_action(state.unsqueeze(0))[:2])
 
             ary_action = convert(action).detach().cpu().numpy()
-            ary_state, reward, done, _ = env.step(ary_action)
+            ary_state, reward, done, _ = env.step(ary_action)[1:]
             if done:
+                print(ary_state.shape)
                 ary_state = env.reset()
 
             states[i] = state
@@ -423,7 +424,7 @@ def train_agent(args: Config):
     agent = args.agent_class(
         args.net_dims, args.state_dim, args.action_dim, gpu_id=args.gpu_id, args=args
     )
-    agent.states = env.reset()[np.newaxis, :]
+    agent.states = env.reset()[0][np.newaxis, :]
 
     evaluator = Evaluator(
         eval_env=build_env(args.env_class, args.env_args),

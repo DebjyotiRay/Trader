@@ -37,7 +37,7 @@ class PaperTradingAlpaca:
     ):
         # load agent
         self.drl_lib = drl_lib
-        if agent == "ppo":
+        if agent == "ppo" or agent == "sac":
             if drl_lib == "elegantrl":
                 agent_class = AgentPPO
                 agent = agent_class(net_dim, state_dim, action_dim)
@@ -73,16 +73,31 @@ class PaperTradingAlpaca:
                     print("Restoring from checkpoint path", cwd)
                 except:
                     raise ValueError("Fail to load agent!")
-
             elif drl_lib == "stable_baselines3":
-                from stable_baselines3 import PPO
-
+                agent_class = AgentPPO
+                agent = agent_class(net_dim, state_dim, action_dim)
+                actor = agent.act
+                # load agent
                 try:
-                    # load agent
-                    self.model = PPO.load(cwd)
-                    print("Successfully load model", cwd)
-                except:
+                    # cwd = cwd + "./test_sac"
+                    print(f"| load actor from: {cwd}")
+                    actor.load_state_dict(
+                        torch.load(cwd, map_location=lambda storage, loc: storage)
+                    )
+                    print("model load ho gaya; ")
+                    self.act = actor
+                    self.device = agent.device
+                except BaseException:
                     raise ValueError("Fail to load agent!")
+            # elif drl_lib == "stable_baselines3":
+            #     from stable_baselines3 import PPO
+            #
+            #     try:
+            #         # load agent
+            #         self.model = PPO.load(cwd)
+            #         print("Successfully load model", cwd)
+            #     except:
+            #         raise ValueError("Fail to load agent!")
 
             else:
                 raise ValueError(
@@ -105,12 +120,12 @@ class PaperTradingAlpaca:
             self.time_interval = 1
         elif time_interval == "5s":
             self.time_interval = 5
-        elif time_interval == "1Min":
-            self.time_interval = 60
-        elif time_interval == "5Min":
-            self.time_interval = 60 * 5
         elif time_interval == "15Min":
-            self.time_interval = 60 * 15
+            self.time_interval = 60*15
+        elif time_interval == "30Min":
+            self.time_interval = 60 * 30
+        elif time_interval == "60Min":
+            self.time_interval = 60 * 60
         else:
             raise ValueError("Time interval input is NOT supported yet.")
 
