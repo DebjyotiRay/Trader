@@ -134,8 +134,8 @@ class DRLAgent:
 
         for i in range(len(environment.df.index.unique())):
             action, _states = model.predict(test_obs, deterministic=deterministic)
-            # account_memory = test_env.env_method(method_name="save_asset_memory")
-            # actions_memory = test_env.env_method(method_name="save_action_memory")
+            account_memory = test_env.env_method(method_name="save_asset_memory")
+            actions_memory = test_env.env_method(method_name="save_action_memory")
             test_obs, rewards, dones, info = test_env.step(action)
 
             if (
@@ -147,7 +147,7 @@ class DRLAgent:
             # state_memory=test_env.env_method(method_name="save_state_memory")
 
             if dones[0]:
-                print("hit end!")
+                print("hit end! khatam karo bc")
                 break
         return account_memory[0], actions_memory[0]
 
@@ -169,6 +169,7 @@ class DRLAgent:
         episode_returns = []  # the cumulative_return / initial_account
         episode_total_assets = [environment.initial_total_asset]
         done = False
+        episode_return=0.0
         while not done:
             action = model.predict(state, deterministic=deterministic)[0]
             state, reward, done, _ = environment.step(action)
@@ -538,7 +539,7 @@ class DRLEnsembleAgent:
             )
             sharpe_a2c = self.get_validation_sharpe(i, model_name="A2C")
             print("A2C Sharpe Ratio: ", sharpe_a2c)
-
+            a2c_sharpe_list.append(sharpe_a2c)
             print("======PPO Training========")
             model_ppo = self.get_model(
                 "ppo", self.train_env, policy="MlpPolicy", model_kwargs=PPO_model_kwargs
@@ -587,7 +588,7 @@ class DRLEnsembleAgent:
             )
             sharpe_ppo = self.get_validation_sharpe(i, model_name="PPO")
             print("PPO Sharpe Ratio: ", sharpe_ppo)
-
+            ppo_sharpe_list.append(sharpe_ppo)
             print("======DDPG Training========")
             model_ddpg = self.get_model(
                 "ddpg",
@@ -639,8 +640,8 @@ class DRLEnsembleAgent:
             )
             sharpe_ddpg = self.get_validation_sharpe(i, model_name="DDPG")
 
-            ppo_sharpe_list.append(sharpe_ppo)
-            a2c_sharpe_list.append(sharpe_a2c)
+            # ppo_sharpe_list.append(sharpe_ppo)
+            # a2c_sharpe_list.append(sharpe_a2c)
             ddpg_sharpe_list.append(sharpe_ddpg)
 
             print(
@@ -652,20 +653,35 @@ class DRLEnsembleAgent:
             # Environment setup for model retraining up to first trade date
             train_full = data_split(self.df, start=self.train_period[0],
             end=self.unique_trade_date[i - self.rebalance_window])
-
             self.train_full_env = DummyVecEnv([lambda: StockTradingEnv(
-                                                                       df=train_full,
-                                                                      stock_dim= self.stock_dim,
-                                                                        hmax= self.hmax,
-                                                                        initial_amount= self.initial_amount,
-                                                                        num_stock_shares= [0] * self.stock_dim,
-                                                                        buy_cost_pct= self.buy_cost_pct,
-                                                                        sell_cost_pct= self.sell_cost_pct,
-                                                                        reward_scaling=self.reward_scaling,
-                                                                          state_space=self.state_space,
-                                                                          action_space=self.action_space,
-                                                                          tech_indicator_list=self.tech_indicator_list,
-                                                                         print_verbosity=self.print_verbosity)])
+                df=train_full,
+                stock_dim=self.stock_dim,
+                hmax=self.hmax,
+                initial_amount=self.initial_amount,
+                num_stock_shares=[0] * self.stock_dim,
+                buy_cost_pct=[self.buy_cost_pct] * self.stock_dim,
+                sell_cost_pct=[self.sell_cost_pct] * self.stock_dim,
+                reward_scaling=self.reward_scaling,
+                state_space=self.state_space,
+                action_space=self.action_space,
+                tech_indicator_list=self.tech_indicator_list,
+                turbulence_threshold=turbulence_threshold,
+                iteration=i,
+                model_name="DDPG",
+                mode="validation",
+                print_verbosity=self.print_verbosity)])
+            # self.train_full_env = DummyVecEnv([lambda: StockTradingEnv(train_full,
+            #                                               self.stock_dim,
+            #                                               self.hmax,
+            #                                               self.initial_amount,
+            #                                               self.buy_cost_pct,
+            #                                               self.sell_cost_pct,
+            #                                               self.reward_scaling,
+            #                                               self.state_space,
+            #                                               self.action_space,
+            #                                               self.tech_indicator_list,
+            #                                              print_verbosity=self.print_verbosity
+            # )])
             # Model Selection based on sharpe ratio
             if (sharpe_ppo >= sharpe_a2c) & (sharpe_ppo >= sharpe_ddpg):
                 model_use.append("PPO")
@@ -750,5 +766,7 @@ class DRLEnsembleAgent:
             "PPO Sharpe",
             "DDPG Sharpe",
         ]
-
+        print(" A2C KA SHARPE LIST: ", a2c_sharpe_list)
+        print("PPO KA SHARPE LIST:  ", ppo_sharpe_list)
+        print(" DDPG KA SHARPE LIST: ", ddpg_sharpe_list)
         return df_summary
