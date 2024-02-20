@@ -12,7 +12,15 @@ import torch
 
 from finrl.meta.data_processors.processor_alpaca import AlpacaProcessor
 
-
+# from stable_baselines3.common.logger import Logger, KVWriter, CSVOutputFormat
+APCA_API_BASE_URL = 'https://paper-api.alpaca.markets'
+APCA_API_KEY_ID = 'PK6OLMQA3TSKGUT30NG7'
+APCA_API_SECRET_KEY = 'Jb2dE9ir20DlosSvfkP9YI8Tywtec9KJPP446cy6'
+import alpaca_trade_api as tradeapi
+# Set up Alpaca API
+api = tradeapi.REST(APCA_API_KEY_ID, APCA_API_SECRET_KEY, base_url=APCA_API_BASE_URL, api_version='v2')
+# from finrl.config_tickers import DOW_30_TICKER
+DOW_30_TICKER=['AXP','AAPL', 'AMGN','MSFT', 'JPM']
 class AlpacaPaperTrading:
     def __init__(
         self,
