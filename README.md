@@ -1,4 +1,12 @@
 # Trader
+
+
+SAMPLE OUTPUT: https://drive.google.com/file/d/13YCH8P0Rkpy1GTNDjMZ3JDDaj1m9WYLx/view?usp=sharing
+
+PITCH DECK: ![image](https://github.com/DebjyotiRay/Trader/assets/33850567/51316875-d633-44cf-9b94-4c0ff08e9e12)
+![image](https://github.com/DebjyotiRay/Trader/assets/33850567/b8fd9379-74c4-48d2-881f-c422adbd190d)
+
+
 **Trading Bot Description:**
 Our trading bot, the "DRL Trader," is an intelligent system designed to revolutionize multi-stock portfolio trading. Leveraging the power of Deep Reinforcement Learning (DRL), it generates precise trading signals based on comprehensive analysis of technical indicators and historical market data. The bot's main objective is to optimize investment strategies by making informed decisions, thereby maximizing returns and minimizing risks in the complex stock market.
 
