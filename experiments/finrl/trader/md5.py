@@ -220,20 +220,20 @@ class MT5_Trader:
         time_remaining = market_close_time - now
         return time_remaining
 
+if __name__ == "__main__":
+    bot = MT5_Trader(login=175127194, server_name="Exness-MT5Trial7",
+                    password="swaroop1946@A")
+    response_list = []
 
-bot = MT5_Trader(login=175127194, server_name="Exness-MT5Trial7",
-                 password="swaroop1946@A")
-response_list = []
+    bot.awaitMarketOpen("AUDUSDm", 60)
+    bot.submitOrder(symbol="AUDUSDm", qty=0.01, side="buy", resp=response_list)
+    print("Response list:", response_list)
 
-bot.awaitMarketOpen("AUDUSDm", 60)
-bot.submitOrder(symbol="AUDUSDm", qty=0.01, side="buy", resp=response_list)
-print("Response list:", response_list)
+    time.sleep(2)
 
-time.sleep(2)
-
-bot.submitOrder(symbol="AUDUSDm", qty=0.01, side="sell", resp=response_list)
-print("Response list:", response_list)
+    bot.submitOrder(symbol="AUDUSDm", qty=0.01, side="sell", resp=response_list)
+    print("Response list:", response_list)
 
 
 
-## Return value type matting with existing code
+    ## Return value type matting with existing code
