@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc0fa055-860f-4ff6-8f43-1d0cb626c6dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/experiments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/experiments.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRL_Trader.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DRL_Trader.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TradingGym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TradingGym-master/TradingGym-master/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TradingGym-master/TradingGym-master/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TradingGym-master/TradingGym-master/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TradingGym-master/TradingGym-master/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../df.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dg.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drl_trader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../drl_trader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/df_account_value.csv" beforeDir="false" afterPath="$PROJECT_DIR$/df_account_value.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/df_result_ensemble.csv" beforeDir="false" afterPath="$PROJECT_DIR$/df_result_ensemble.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finrl/agents/stablebaselines3/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/finrl/agents/stablebaselines3/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finrl/meta/paper_trading/alpaca.py" beforeDir="false" afterPath="$PROJECT_DIR$/finrl/meta/paper_trading/alpaca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finrl/meta/paper_trading/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/finrl/meta/paper_trading/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/A2C_10k_126.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/A2C_10k_126.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/A2C_10k_189.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/A2C_10k_189.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/A2C_10k_252.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/A2C_10k_252.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/A2C_10k_315.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/A2C_10k_315.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/A2C_10k_378.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/A2C_10k_378.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/A2C_10k_441.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/A2C_10k_441.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/A2C_10k_504.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/A2C_10k_504.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/A2C_10k_567.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/A2C_10k_567.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/DDPG_10k_126.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/DDPG_10k_126.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/DDPG_10k_189.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/DDPG_10k_189.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/DDPG_10k_252.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/DDPG_10k_252.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/DDPG_10k_315.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/DDPG_10k_315.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/DDPG_10k_378.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/DDPG_10k_378.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/DDPG_10k_441.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/DDPG_10k_441.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/DDPG_10k_504.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/DDPG_10k_504.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/DDPG_10k_567.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/DDPG_10k_567.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_126.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_126.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_189.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_189.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_252.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_252.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_315.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_315.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_378.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_378.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_441.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_441.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_504.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_504.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_567.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/ENSEMBLE_10k_567.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/PPO_10k_126.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/PPO_10k_126.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/PPO_10k_189.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/PPO_10k_189.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/PPO_10k_252.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/PPO_10k_252.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/PPO_10k_315.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/PPO_10k_315.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/PPO_10k_378.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/PPO_10k_378.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/PPO_10k_441.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/PPO_10k_441.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/PPO_10k_504.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/PPO_10k_504.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/PPO_10k_567.zip" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/PPO_10k_567.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/agents/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/agents/elegantrl/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/agents/elegantrl/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/agents/elegantrl/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/agents/rllib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/agents/rllib/drllibv2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/agents/rllib/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/agents/rllib/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/agents/stablebaselines3/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/agents/stablebaselines3/hyperparams_opt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/agents/stablebaselines3/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/agents/stablebaselines3/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/agents/stablebaselines3/tune_sb3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/agents/stablebaselines3/tune_sb3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/Stock_NeurIPS2018/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/Stock_NeurIPS2018/Stock_NeurIPS2018_1_Data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/Stock_NeurIPS2018/Stock_NeurIPS2018_2_Train.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/Stock_NeurIPS2018/Stock_NeurIPS2018_3_Backtest.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/cryptocurrency_trading/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/cryptocurrency_trading/actor.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/cryptocurrency_trading/recorder.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/high_frequency_trading/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/high_frequency_trading/actor.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/high_frequency_trading/recorder.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/imitation_learning/Imitation_Sandbox.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/imitation_learning/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/imitation_learning/Stock_Selection.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/imitation_learning/Weight_Initialization.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/portfolio_allocation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/stock_trading/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/stock_trading/ensemble_stock_trading.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/applications/stock_trading/ensemble_stock_trading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/stock_trading/fundamental_stock_trading.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/applications/stock_trading/fundamental_stock_trading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/stock_trading/stock_trading.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/applications/stock_trading/stock_trading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/applications/stock_trading/stock_trading_rolling_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/applications/stock_trading/stock_trading_rolling_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/config_private.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/config_private.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/config_tickers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/data_processor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/data_processors/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/data_processors/func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/data_processors/processor_alpaca.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/data_processors/processor_ccxt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/data_processors/processor_joinquant.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/data_processors/processor_quantconnect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/data_processors/processor_wrds.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/data_processors/processor_yahoofinance.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/meta/data_processors/processor_yahoofinance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_cryptocurrency_trading/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_cryptocurrency_trading/env_btc_ccxt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_cryptocurrency_trading/env_multiple_crypto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_portfolio_allocation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_portfolio_allocation/env_portfolio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/.idea/env_stock_trading.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/.idea/env_stock_trading.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/env_nas100_wrds.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/env_stock_papertrading.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/env_stock_papertrading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/env_stocktrading.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/env_stocktrading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/env_stocktrading_cashpenalty.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/env_stocktrading_np.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/env_stocktrading_stoploss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/meta/env_stock_trading/script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/meta_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/paper_trading/alpaca.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/paper_trading/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/preprocessor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/preprocessor/preprocessors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/preprocessor/tusharedownloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/meta/preprocessor/yahoodownloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/trade.py" beforeDir="false" afterPath="$PROJECT_DIR$/../finrl/trade.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finrl/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../requirement.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../results.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_126.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_126.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_189.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_189.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_252.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_252.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_315.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_315.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_378.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_378.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_441.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_441.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_504.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_504.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_567.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_trade_ensemble_567.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_126.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_126.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_189.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_189.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_252.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_252.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_315.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_315.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_378.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_378.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_441.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_441.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_504.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_504.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_567.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_A2C_567.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_126.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_126.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_189.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_189.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_252.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_252.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_315.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_315.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_378.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_378.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_441.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_441.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_504.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_504.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_567.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_DDPG_567.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_126.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_126.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_189.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_189.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_252.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_252.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_315.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_315.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_378.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_378.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_441.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_441.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_504.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_504.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_567.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_rewards_validation_PPO_567.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_126.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_126.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_126.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_126.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_189.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_189.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_189.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_189.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_252.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_252.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_252.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_252.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_315.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_315.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_315.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_315.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_378.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_378.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_378.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_378.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_441.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_441.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_441.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_441.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_504.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_504.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_504.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_504.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_567.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_567.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_trade_ensemble_567.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_trade_ensemble_567.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_126.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_126.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_126.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_126.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_189.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_189.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_189.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_189.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_252.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_252.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_252.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_252.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_315.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_315.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_315.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_315.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_378.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_378.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_378.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_378.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_441.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_441.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_441.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_441.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_504.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_504.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_504.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_504.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_567.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_567.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_A2C_567.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_A2C_567.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_126.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_126.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_126.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_126.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_189.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_189.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_189.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_189.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_252.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_252.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_252.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_252.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_315.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_315.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_315.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_315.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_378.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_378.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_378.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_378.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_441.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_441.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_441.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_441.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_504.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_504.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_504.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_504.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_567.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_567.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_DDPG_567.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_DDPG_567.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_126.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_126.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_126.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_126.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_189.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_189.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_189.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_189.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_252.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_252.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_252.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_252.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_315.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_315.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_315.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_315.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_378.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_378.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_378.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_378.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_441.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_441.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_441.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_441.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_504.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_504.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_504.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_504.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_567.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_567.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/account_value_validation_PPO_567.png" beforeDir="false" afterPath="$PROJECT_DIR$/../results/account_value_validation_PPO_567.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_trade_ensemble_126.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_trade_ensemble_126.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_trade_ensemble_189.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_trade_ensemble_189.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_trade_ensemble_252.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_trade_ensemble_252.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_trade_ensemble_315.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_trade_ensemble_315.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_trade_ensemble_378.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_trade_ensemble_378.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_trade_ensemble_441.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_trade_ensemble_441.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_trade_ensemble_504.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_trade_ensemble_504.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_trade_ensemble_567.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_trade_ensemble_567.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_A2C_126.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_A2C_126.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_A2C_189.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_A2C_189.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_A2C_252.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_A2C_252.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_A2C_315.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_A2C_315.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_A2C_378.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_A2C_378.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_A2C_441.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_A2C_441.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_A2C_504.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_A2C_504.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_A2C_567.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_A2C_567.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_DDPG_126.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_DDPG_126.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_DDPG_189.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_DDPG_189.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_DDPG_252.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_DDPG_252.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_DDPG_315.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_DDPG_315.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_DDPG_378.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_DDPG_378.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_DDPG_441.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_DDPG_441.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_DDPG_504.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_DDPG_504.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_DDPG_567.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_DDPG_567.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_PPO_126.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_PPO_126.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_PPO_189.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_PPO_189.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_PPO_252.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_PPO_252.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_PPO_315.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_PPO_315.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_PPO_378.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_PPO_378.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_PPO_441.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_PPO_441.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_PPO_504.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_PPO_504.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/actions_validation_PPO_567.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/actions_validation_PPO_567.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/last_state_ensemble_62.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../results/last_state_ensemble_62.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sma_plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sma_plotting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_1/events.out.tfevents.1708384601.DESKTOP-KUAO3MC.16316.0" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_1/events.out.tfevents.1708384601.DESKTOP-KUAO3MC.16316.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_10/events.out.tfevents.1710783144.DESKTOP-KUAO3MC.88400.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_2/events.out.tfevents.1708385111.DESKTOP-KUAO3MC.21592.0" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_2/events.out.tfevents.1708385111.DESKTOP-KUAO3MC.21592.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_2/events.out.tfevents.1710681048.DESKTOP-KUAO3MC.34824.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_3/events.out.tfevents.1708385283.DESKTOP-KUAO3MC.24332.0" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_3/events.out.tfevents.1708385283.DESKTOP-KUAO3MC.24332.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_3/events.out.tfevents.1710764209.DESKTOP-KUAO3MC.77780.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_4/events.out.tfevents.1708626176.DESKTOP-KUAO3MC.19868.0" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_4/events.out.tfevents.1708626176.DESKTOP-KUAO3MC.19868.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_4/events.out.tfevents.1710764447.DESKTOP-KUAO3MC.77604.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_5/events.out.tfevents.1710765675.DESKTOP-KUAO3MC.81348.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_6/events.out.tfevents.1710766556.DESKTOP-KUAO3MC.81008.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_7/events.out.tfevents.1710767061.DESKTOP-KUAO3MC.81836.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_8/events.out.tfevents.1710767487.DESKTOP-KUAO3MC.75972.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_126_9/events.out.tfevents.1710767753.DESKTOP-KUAO3MC.81064.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_189_1/events.out.tfevents.1708385505.DESKTOP-KUAO3MC.24332.4" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_189_1/events.out.tfevents.1708385505.DESKTOP-KUAO3MC.24332.4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_189_1/events.out.tfevents.1710767921.DESKTOP-KUAO3MC.81064.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_189_2/events.out.tfevents.1708626396.DESKTOP-KUAO3MC.19868.4" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_189_2/events.out.tfevents.1708626396.DESKTOP-KUAO3MC.19868.4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_189_2/events.out.tfevents.1710783286.DESKTOP-KUAO3MC.88400.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_252_1/events.out.tfevents.1708385639.DESKTOP-KUAO3MC.24332.8" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_252_1/events.out.tfevents.1708385639.DESKTOP-KUAO3MC.24332.8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_252_1/events.out.tfevents.1710768174.DESKTOP-KUAO3MC.81064.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_252_2/events.out.tfevents.1708626613.DESKTOP-KUAO3MC.19868.8" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_252_2/events.out.tfevents.1708626613.DESKTOP-KUAO3MC.19868.8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_252_2/events.out.tfevents.1710783450.DESKTOP-KUAO3MC.88400.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_315_1/events.out.tfevents.1708385871.DESKTOP-KUAO3MC.24332.12" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_315_1/events.out.tfevents.1708385871.DESKTOP-KUAO3MC.24332.12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_315_1/events.out.tfevents.1710768609.DESKTOP-KUAO3MC.81064.12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_315_2/events.out.tfevents.1708626900.DESKTOP-KUAO3MC.19868.12" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_315_2/events.out.tfevents.1708626900.DESKTOP-KUAO3MC.19868.12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_315_2/events.out.tfevents.1710783617.DESKTOP-KUAO3MC.88400.12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_378_1/events.out.tfevents.1708386131.DESKTOP-KUAO3MC.24332.16" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_378_1/events.out.tfevents.1708386131.DESKTOP-KUAO3MC.24332.16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_378_1/events.out.tfevents.1710769059.DESKTOP-KUAO3MC.81064.16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_378_2/events.out.tfevents.1708627215.DESKTOP-KUAO3MC.19868.16" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_378_2/events.out.tfevents.1708627215.DESKTOP-KUAO3MC.19868.16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_378_2/events.out.tfevents.1710783784.DESKTOP-KUAO3MC.88400.16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_441_1/events.out.tfevents.1708386281.DESKTOP-KUAO3MC.24332.20" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_441_1/events.out.tfevents.1708386281.DESKTOP-KUAO3MC.24332.20" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_441_1/events.out.tfevents.1710769509.DESKTOP-KUAO3MC.81064.20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_441_2/events.out.tfevents.1708627530.DESKTOP-KUAO3MC.19868.20" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_441_2/events.out.tfevents.1708627530.DESKTOP-KUAO3MC.19868.20" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_441_2/events.out.tfevents.1710783956.DESKTOP-KUAO3MC.88400.20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_504_1/events.out.tfevents.1708386438.DESKTOP-KUAO3MC.24332.24" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_504_1/events.out.tfevents.1708386438.DESKTOP-KUAO3MC.24332.24" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_504_1/events.out.tfevents.1710769828.DESKTOP-KUAO3MC.81064.24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_504_2/events.out.tfevents.1708627854.DESKTOP-KUAO3MC.19868.24" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_504_2/events.out.tfevents.1708627854.DESKTOP-KUAO3MC.19868.24" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_504_2/events.out.tfevents.1710784158.DESKTOP-KUAO3MC.88400.24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_567_1/events.out.tfevents.1708386711.DESKTOP-KUAO3MC.24332.28" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_567_1/events.out.tfevents.1708386711.DESKTOP-KUAO3MC.24332.28" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_567_1/events.out.tfevents.1710770108.DESKTOP-KUAO3MC.81064.28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_567_2/events.out.tfevents.1708628122.DESKTOP-KUAO3MC.19868.28" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_567_2/events.out.tfevents.1708628122.DESKTOP-KUAO3MC.19868.28" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/a2c_567_2/events.out.tfevents.1710784451.DESKTOP-KUAO3MC.88400.28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_126_1/events.out.tfevents.1708384777.DESKTOP-KUAO3MC.16316.3" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_126_1/events.out.tfevents.1708384777.DESKTOP-KUAO3MC.16316.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_126_1/events.out.tfevents.1710765951.DESKTOP-KUAO3MC.81348.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_126_2/events.out.tfevents.1708385230.DESKTOP-KUAO3MC.21592.3" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_126_2/events.out.tfevents.1708385230.DESKTOP-KUAO3MC.21592.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_126_2/events.out.tfevents.1710767251.DESKTOP-KUAO3MC.81836.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_126_3/events.out.tfevents.1710767903.DESKTOP-KUAO3MC.81064.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_126_4/events.out.tfevents.1710783271.DESKTOP-KUAO3MC.88400.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_189_1/events.out.tfevents.1708385618.DESKTOP-KUAO3MC.24332.7" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_189_1/events.out.tfevents.1708385618.DESKTOP-KUAO3MC.24332.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_189_1/events.out.tfevents.1710783434.DESKTOP-KUAO3MC.88400.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_189_2/events.out.tfevents.1708626574.DESKTOP-KUAO3MC.19868.7" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_189_2/events.out.tfevents.1708626574.DESKTOP-KUAO3MC.19868.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_252_1/events.out.tfevents.1708626860.DESKTOP-KUAO3MC.19868.11" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_252_1/events.out.tfevents.1708626860.DESKTOP-KUAO3MC.19868.11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_252_1/events.out.tfevents.1710783601.DESKTOP-KUAO3MC.88400.11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_315_1/events.out.tfevents.1710783769.DESKTOP-KUAO3MC.88400.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_378_1/events.out.tfevents.1708386259.DESKTOP-KUAO3MC.24332.19" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_378_1/events.out.tfevents.1708386259.DESKTOP-KUAO3MC.24332.19" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_378_1/events.out.tfevents.1710783940.DESKTOP-KUAO3MC.88400.19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_378_2/events.out.tfevents.1708627491.DESKTOP-KUAO3MC.19868.19" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_378_2/events.out.tfevents.1708627491.DESKTOP-KUAO3MC.19868.19" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_441_1/events.out.tfevents.1710784142.DESKTOP-KUAO3MC.88400.23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_504_1/events.out.tfevents.1708628082.DESKTOP-KUAO3MC.19868.27" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_504_1/events.out.tfevents.1708628082.DESKTOP-KUAO3MC.19868.27" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/a2c/ensemble_567_1/events.out.tfevents.1710784690.DESKTOP-KUAO3MC.88400.31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_1/events.out.tfevents.1708384630.DESKTOP-KUAO3MC.16316.2" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_1/events.out.tfevents.1708384630.DESKTOP-KUAO3MC.16316.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_1/events.out.tfevents.1710681081.DESKTOP-KUAO3MC.34824.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_2/events.out.tfevents.1708385140.DESKTOP-KUAO3MC.21592.2" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_2/events.out.tfevents.1708385140.DESKTOP-KUAO3MC.21592.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_2/events.out.tfevents.1710764242.DESKTOP-KUAO3MC.77780.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_3/events.out.tfevents.1708385313.DESKTOP-KUAO3MC.24332.2" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_3/events.out.tfevents.1708385313.DESKTOP-KUAO3MC.24332.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_3/events.out.tfevents.1710764477.DESKTOP-KUAO3MC.77604.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_4/events.out.tfevents.1708626205.DESKTOP-KUAO3MC.19868.2" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_4/events.out.tfevents.1708626205.DESKTOP-KUAO3MC.19868.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_4/events.out.tfevents.1710765741.DESKTOP-KUAO3MC.81348.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_5/events.out.tfevents.1710766585.DESKTOP-KUAO3MC.81008.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_6/events.out.tfevents.1710767090.DESKTOP-KUAO3MC.81836.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_7/events.out.tfevents.1710767532.DESKTOP-KUAO3MC.75972.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_8/events.out.tfevents.1710767790.DESKTOP-KUAO3MC.81064.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_126_9/events.out.tfevents.1710783176.DESKTOP-KUAO3MC.88400.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_189_1/events.out.tfevents.1708385534.DESKTOP-KUAO3MC.24332.6" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_189_1/events.out.tfevents.1708385534.DESKTOP-KUAO3MC.24332.6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_189_1/events.out.tfevents.1710767959.DESKTOP-KUAO3MC.81064.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_189_2/events.out.tfevents.1708626426.DESKTOP-KUAO3MC.19868.6" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_189_2/events.out.tfevents.1708626426.DESKTOP-KUAO3MC.19868.6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_189_2/events.out.tfevents.1710783317.DESKTOP-KUAO3MC.88400.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_252_1/events.out.tfevents.1708385670.DESKTOP-KUAO3MC.24332.10" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_252_1/events.out.tfevents.1708385670.DESKTOP-KUAO3MC.24332.10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_252_1/events.out.tfevents.1710768214.DESKTOP-KUAO3MC.81064.10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_252_2/events.out.tfevents.1708626672.DESKTOP-KUAO3MC.19868.10" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_252_2/events.out.tfevents.1708626672.DESKTOP-KUAO3MC.19868.10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_252_2/events.out.tfevents.1710783481.DESKTOP-KUAO3MC.88400.10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_315_1/events.out.tfevents.1708385901.DESKTOP-KUAO3MC.24332.14" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_315_1/events.out.tfevents.1708385901.DESKTOP-KUAO3MC.24332.14" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_315_1/events.out.tfevents.1710768683.DESKTOP-KUAO3MC.81064.14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_315_2/events.out.tfevents.1708626958.DESKTOP-KUAO3MC.19868.14" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_315_2/events.out.tfevents.1708626958.DESKTOP-KUAO3MC.19868.14" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_315_2/events.out.tfevents.1710783650.DESKTOP-KUAO3MC.88400.14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_378_1/events.out.tfevents.1708386161.DESKTOP-KUAO3MC.24332.18" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_378_1/events.out.tfevents.1708386161.DESKTOP-KUAO3MC.24332.18" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_378_1/events.out.tfevents.1710769118.DESKTOP-KUAO3MC.81064.18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_378_2/events.out.tfevents.1708627273.DESKTOP-KUAO3MC.19868.18" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_378_2/events.out.tfevents.1708627273.DESKTOP-KUAO3MC.19868.18" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_378_2/events.out.tfevents.1710783817.DESKTOP-KUAO3MC.88400.18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_441_1/events.out.tfevents.1708386312.DESKTOP-KUAO3MC.24332.22" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_441_1/events.out.tfevents.1708386312.DESKTOP-KUAO3MC.24332.22" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_441_1/events.out.tfevents.1710769578.DESKTOP-KUAO3MC.81064.22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_441_2/events.out.tfevents.1708627586.DESKTOP-KUAO3MC.19868.22" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_441_2/events.out.tfevents.1708627586.DESKTOP-KUAO3MC.19868.22" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_441_2/events.out.tfevents.1710784002.DESKTOP-KUAO3MC.88400.22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_504_1/events.out.tfevents.1708386490.DESKTOP-KUAO3MC.24332.26" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_504_1/events.out.tfevents.1708386490.DESKTOP-KUAO3MC.24332.26" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_504_1/events.out.tfevents.1710769895.DESKTOP-KUAO3MC.81064.26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_504_2/events.out.tfevents.1708627909.DESKTOP-KUAO3MC.19868.26" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_504_2/events.out.tfevents.1708627909.DESKTOP-KUAO3MC.19868.26" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_504_2/events.out.tfevents.1710784191.DESKTOP-KUAO3MC.88400.26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_567_1/events.out.tfevents.1708386757.DESKTOP-KUAO3MC.24332.30" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_567_1/events.out.tfevents.1708386757.DESKTOP-KUAO3MC.24332.30" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_567_1/events.out.tfevents.1710770165.DESKTOP-KUAO3MC.81064.30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_567_2/events.out.tfevents.1708628178.DESKTOP-KUAO3MC.19868.30" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_567_2/events.out.tfevents.1708628178.DESKTOP-KUAO3MC.19868.30" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ddpg_567_2/events.out.tfevents.1710784517.DESKTOP-KUAO3MC.88400.30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_126_1/events.out.tfevents.1708385403.DESKTOP-KUAO3MC.24332.3" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_126_1/events.out.tfevents.1708385403.DESKTOP-KUAO3MC.24332.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_126_1/events.out.tfevents.1710681258.DESKTOP-KUAO3MC.34824.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_126_2/events.out.tfevents.1708626291.DESKTOP-KUAO3MC.19868.3" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_126_2/events.out.tfevents.1708626291.DESKTOP-KUAO3MC.19868.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_126_2/events.out.tfevents.1710764333.DESKTOP-KUAO3MC.77780.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_126_3/events.out.tfevents.1710766672.DESKTOP-KUAO3MC.81008.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_126_4/events.out.tfevents.1710767695.DESKTOP-KUAO3MC.75972.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_189_1/events.out.tfevents.1710768077.DESKTOP-KUAO3MC.81064.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_252_1/events.out.tfevents.1708385753.DESKTOP-KUAO3MC.24332.11" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_252_1/events.out.tfevents.1708385753.DESKTOP-KUAO3MC.24332.11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_252_1/events.out.tfevents.1710768412.DESKTOP-KUAO3MC.81064.11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_315_1/events.out.tfevents.1708386010.DESKTOP-KUAO3MC.24332.15" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_315_1/events.out.tfevents.1708386010.DESKTOP-KUAO3MC.24332.15" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_315_1/events.out.tfevents.1710768889.DESKTOP-KUAO3MC.81064.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_378_1/events.out.tfevents.1710769339.DESKTOP-KUAO3MC.81064.19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_504_1/events.out.tfevents.1710784315.DESKTOP-KUAO3MC.88400.27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_567_1/events.out.tfevents.1708386835.DESKTOP-KUAO3MC.24332.31" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_567_1/events.out.tfevents.1708386835.DESKTOP-KUAO3MC.24332.31" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_567_2/events.out.tfevents.1708628349.DESKTOP-KUAO3MC.19868.31" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ddpg/ensemble_567_2/events.out.tfevents.1708628349.DESKTOP-KUAO3MC.19868.31" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ensemble_126_1/events.out.tfevents.1710764577.DESKTOP-KUAO3MC.77604.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ensemble_315_1/events.out.tfevents.1708627176.DESKTOP-KUAO3MC.19868.15" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ensemble_315_1/events.out.tfevents.1708627176.DESKTOP-KUAO3MC.19868.15" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ensemble_441_1/events.out.tfevents.1708386416.DESKTOP-KUAO3MC.24332.23" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ensemble_441_1/events.out.tfevents.1708386416.DESKTOP-KUAO3MC.24332.23" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ensemble_441_1/events.out.tfevents.1710769797.DESKTOP-KUAO3MC.81064.23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ensemble_441_2/events.out.tfevents.1708627816.DESKTOP-KUAO3MC.19868.23" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ensemble_441_2/events.out.tfevents.1708627816.DESKTOP-KUAO3MC.19868.23" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ensemble_504_1/events.out.tfevents.1708386672.DESKTOP-KUAO3MC.24332.27" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ensemble_504_1/events.out.tfevents.1708386672.DESKTOP-KUAO3MC.24332.27" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ensemble_504_1/events.out.tfevents.1710770076.DESKTOP-KUAO3MC.81064.27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ensemble_567_1/events.out.tfevents.1710770334.DESKTOP-KUAO3MC.81064.31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_1/events.out.tfevents.1708384616.DESKTOP-KUAO3MC.16316.1" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_1/events.out.tfevents.1708384616.DESKTOP-KUAO3MC.16316.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_1/events.out.tfevents.1710681065.DESKTOP-KUAO3MC.34824.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_2/events.out.tfevents.1708385126.DESKTOP-KUAO3MC.21592.1" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_2/events.out.tfevents.1708385126.DESKTOP-KUAO3MC.21592.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_2/events.out.tfevents.1710764226.DESKTOP-KUAO3MC.77780.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_3/events.out.tfevents.1708385298.DESKTOP-KUAO3MC.24332.1" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_3/events.out.tfevents.1708385298.DESKTOP-KUAO3MC.24332.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_3/events.out.tfevents.1710764463.DESKTOP-KUAO3MC.77604.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_4/events.out.tfevents.1708626191.DESKTOP-KUAO3MC.19868.1" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_4/events.out.tfevents.1708626191.DESKTOP-KUAO3MC.19868.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_4/events.out.tfevents.1710765705.DESKTOP-KUAO3MC.81348.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_5/events.out.tfevents.1710766571.DESKTOP-KUAO3MC.81008.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_6/events.out.tfevents.1710767076.DESKTOP-KUAO3MC.81836.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_7/events.out.tfevents.1710767502.DESKTOP-KUAO3MC.75972.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_8/events.out.tfevents.1710767772.DESKTOP-KUAO3MC.81064.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_126_9/events.out.tfevents.1710783161.DESKTOP-KUAO3MC.88400.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_189_1/events.out.tfevents.1708385520.DESKTOP-KUAO3MC.24332.5" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_189_1/events.out.tfevents.1708385520.DESKTOP-KUAO3MC.24332.5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_189_1/events.out.tfevents.1710767940.DESKTOP-KUAO3MC.81064.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_189_2/events.out.tfevents.1708626411.DESKTOP-KUAO3MC.19868.5" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_189_2/events.out.tfevents.1708626411.DESKTOP-KUAO3MC.19868.5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_189_2/events.out.tfevents.1710783302.DESKTOP-KUAO3MC.88400.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_252_1/events.out.tfevents.1708385655.DESKTOP-KUAO3MC.24332.9" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_252_1/events.out.tfevents.1708385655.DESKTOP-KUAO3MC.24332.9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_252_1/events.out.tfevents.1710768196.DESKTOP-KUAO3MC.81064.9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_252_2/events.out.tfevents.1708626644.DESKTOP-KUAO3MC.19868.9" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_252_2/events.out.tfevents.1708626644.DESKTOP-KUAO3MC.19868.9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_252_2/events.out.tfevents.1710783466.DESKTOP-KUAO3MC.88400.9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_315_1/events.out.tfevents.1708385886.DESKTOP-KUAO3MC.24332.13" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_315_1/events.out.tfevents.1708385886.DESKTOP-KUAO3MC.24332.13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_315_1/events.out.tfevents.1710768651.DESKTOP-KUAO3MC.81064.13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_315_2/events.out.tfevents.1708626930.DESKTOP-KUAO3MC.19868.13" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_315_2/events.out.tfevents.1708626930.DESKTOP-KUAO3MC.19868.13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_315_2/events.out.tfevents.1710783634.DESKTOP-KUAO3MC.88400.13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_378_1/events.out.tfevents.1708386146.DESKTOP-KUAO3MC.24332.17" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_378_1/events.out.tfevents.1708386146.DESKTOP-KUAO3MC.24332.17" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_378_1/events.out.tfevents.1710769088.DESKTOP-KUAO3MC.81064.17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_378_2/events.out.tfevents.1708627244.DESKTOP-KUAO3MC.19868.17" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_378_2/events.out.tfevents.1708627244.DESKTOP-KUAO3MC.19868.17" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_378_2/events.out.tfevents.1710783801.DESKTOP-KUAO3MC.88400.17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_441_1/events.out.tfevents.1708386297.DESKTOP-KUAO3MC.24332.21" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_441_1/events.out.tfevents.1708386297.DESKTOP-KUAO3MC.24332.21" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_441_1/events.out.tfevents.1710769547.DESKTOP-KUAO3MC.81064.21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_441_2/events.out.tfevents.1708627558.DESKTOP-KUAO3MC.19868.21" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_441_2/events.out.tfevents.1708627558.DESKTOP-KUAO3MC.19868.21" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_441_2/events.out.tfevents.1710783973.DESKTOP-KUAO3MC.88400.21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_504_1/events.out.tfevents.1708386461.DESKTOP-KUAO3MC.24332.25" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_504_1/events.out.tfevents.1708386461.DESKTOP-KUAO3MC.24332.25" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_504_1/events.out.tfevents.1710769864.DESKTOP-KUAO3MC.81064.25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_504_2/events.out.tfevents.1708627882.DESKTOP-KUAO3MC.19868.25" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_504_2/events.out.tfevents.1708627882.DESKTOP-KUAO3MC.19868.25" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_504_2/events.out.tfevents.1710784175.DESKTOP-KUAO3MC.88400.25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_567_1/events.out.tfevents.1708386742.DESKTOP-KUAO3MC.24332.29" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_567_1/events.out.tfevents.1708386742.DESKTOP-KUAO3MC.24332.29" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_567_1/events.out.tfevents.1710770144.DESKTOP-KUAO3MC.81064.29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_567_2/events.out.tfevents.1708628150.DESKTOP-KUAO3MC.19868.29" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_567_2/events.out.tfevents.1708628150.DESKTOP-KUAO3MC.19868.29" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorboard_log/ppo/ppo_567_2/events.out.tfevents.1710784484.DESKTOP-KUAO3MC.88400.29" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2hFUEr2xzsVXmR4iZdEXyg03lzV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging experiments"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc0fa055-860f-4ff6-8f43-1d0cb626c6dc" name="Changes" comment="" />
+      <created>1717189210659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717189210659</updated>
+    </task>
+    <servers />
+  </component>
+</project>

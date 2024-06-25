@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+<<<<<<<< HEAD:finrl/meta/env_stock_trading/.idea/modules.xml
+      <module fileurl="file://$PROJECT_DIR$/.idea/env_stock_trading.iml" filepath="$PROJECT_DIR$/.idea/env_stock_trading.iml" />
+========
+      <module fileurl="file://$PROJECT_DIR$/.idea/experiments.iml" filepath="$PROJECT_DIR$/.idea/experiments.iml" />
+>>>>>>>> 2e15bbbd54a88aa85ac0c48349edde475eb639a9:experiments/.idea/modules.xml
+    </modules>
+  </component>
+</project>
