@@ -2,7 +2,7 @@
 
 
 ## [SAMPLE OUTPUT](#https://drive.google.com/file/d/13YCH8P0Rkpy1GTNDjMZ3JDDaj1m9WYLx/view?usp=sharing)
-
+## [Video presentation](https://drive.google.com/file/d/1eJsfxeYoQ8pIhhO_hva7gQ3Cw1ps_gD4/view?usp=sharing)
 PITCH DECK: ![image](https://github.com/DebjyotiRay/Trader/assets/33850567/51316875-d633-44cf-9b94-4c0ff08e9e12)
 ![image](https://github.com/DebjyotiRay/Trader/assets/33850567/b8fd9379-74c4-48d2-881f-c422adbd190d)
 
