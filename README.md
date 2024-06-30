@@ -7,9 +7,6 @@
 PITCH DECK: ![image](https://github.com/DebjyotiRay/Trader/assets/33850567/51316875-d633-44cf-9b94-4c0ff08e9e12)
 ![image](https://github.com/DebjyotiRay/Trader/assets/33850567/b8fd9379-74c4-48d2-881f-c422adbd190d)
 
-Sure, here's the updated README with the additional information about the ongoing experiments and MT5 connection setup:
-
----
 
 # DRL Trader
 
